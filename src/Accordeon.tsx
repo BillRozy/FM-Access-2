@@ -18,7 +18,7 @@ export default function Accordeon({
     <div className={`${open ? "space-y-6" : ""}`}>
       <a
         tabIndex={0}
-        className="flex flex-row justify-between gap-6 items-center text-purple-dark hover:text-pink hover:cursor-pointer focus-visible:ring-2 focus-visible:ring-pink ring-offset-4 outline-none"
+        className="flex flex-row justify-between gap-6 desktop:gap-0 items-center text-purple-dark hover:text-pink hover:cursor-pointer focus-visible:ring-2 focus-visible:ring-pink ring-offset-4 outline-none"
         onClick={() => onOpenChange(!open)}
         onKeyDown={event => ["Enter", " "].includes(event.key) && onOpenChange(!open)}
       >
