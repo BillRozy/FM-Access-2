@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap');
+:root {
+  --rem: 16px;
+  --pink: #B022F2;
+  --pink-light: hsl(275, 100%, 97%);
+  --purple-pale: hsl(292, 16%, 49%);
+  --purple-dark: hsl(292, 42%, 14%);
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: var(--rem);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light dark;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: 100vh;
+}
